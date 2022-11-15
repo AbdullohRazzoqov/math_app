@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 
 class MyColors {
   static const Color black = Color(0xFF000000);
-  static const Color bacroundColor = Color(0xFF1F1D2C);
+  static const Color bacroundColor = Color(0xFF212121);
+  static const Color test = Color(0xFF242424);
 }
 
 class Palette {

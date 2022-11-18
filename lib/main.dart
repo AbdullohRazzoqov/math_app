@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:math_app/utils/color.dart';
+import 'package:math_app/view/screens/fast_increase.dart';
 
-import 'constants/constants.dart';
-import 'router/router.dart';
 
 void main() {
   SystemChrome.setSystemUIOverlayStyle(
@@ -18,9 +17,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData(primaryColor: MyColors.bacroundColor),
-      debugShowCheckedModeBanner: false,
-      initialRoute: startPage,
-      onGenerateRoute: MyRouter.generateRoute,
+      debugShowCheckedModeBanner: false,home: FastIncrease(),
+      // initialRoute: startPage,
+      // onGenerateRoute: MyRouter.generateRoute,
     );
   }
 }

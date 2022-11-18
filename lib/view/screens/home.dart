@@ -1,7 +1,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:math_app/utils/color.dart';
-import 'package:math_app/view/screens/kopaytiruv.dart';
+import 'package:math_app/view/screens/fast_increase.dart';
 import 'package:math_app/view/widget/app_icon.dart';
 
 class HomePage extends StatelessWidget {
@@ -22,7 +22,7 @@ class HomePage extends StatelessWidget {
               InkWell(onTap: () =>  Navigator.pushReplacement(
             context,
             MaterialPageRoute(
-              builder: (context) => const Kopaytiruv(),
+              builder: (context) => const FastIncrease(),
             ),
           ),
                 child: ContainerWidget(
